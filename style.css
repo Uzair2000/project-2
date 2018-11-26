@@ -32,6 +32,9 @@ h1{
     font-family: Arial;
     color: green; 
 }
+h2{
+   font-family: Arial; 
+}
 .footer {
   position: absolute;
   right: 0;
@@ -40,6 +43,13 @@ h1{
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
+  /* for IE */
+        filter:alpha(opacity=50);
+        /* CSS3 standard */
+        opacity:0.5;
   font-family: Arial;
 
+}
+body{
+    background-image: url("cool-background.png");
 }
