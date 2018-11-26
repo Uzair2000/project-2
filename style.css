@@ -28,6 +28,10 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
+h1{
+    font-family: Arial;
+    color: green; 
+}
 .footer {
   position: absolute;
   right: 0;
