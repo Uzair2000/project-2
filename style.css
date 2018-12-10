@@ -1,6 +1,6 @@
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0; 
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -34,9 +34,10 @@ h1{
 }
 h2{
    font-family: Arial; 
+   background-color: yellow;
 }
 .footer {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
@@ -48,8 +49,16 @@ h2{
         /* CSS3 standard */
         opacity:0.5;
   font-family: Arial;
-
 }
 body{
     background-image: url("cool-background.png");
+}
+p{
+  text-align: center;
+  font-family: Arial;
+  background-color: grey;
+  color: white; 
+}
+h3{
+  font-family: Arial;
 }
